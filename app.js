@@ -7,8 +7,7 @@ function agregarAmigo() {
     if (amigo !== "") {
       amigos.push(amigo);
       actualizarListaAmigos();
-      amigo.value = ""; // Limpiar el campo de entrada después de añadir el amigo
-    } else {
+        } else {
       alert("Por favor, inserte un nombre.");
     }
     limpiarCaja();
